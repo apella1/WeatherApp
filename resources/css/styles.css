@@ -1,0 +1,44 @@
+/* using the wild card selector advantages and disadvantages */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(47, 30, 197), rgb(79, 114, 90));
+    font-family: sans-serif;
+
+}
+
+.location, 
+.temperature { 
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+
+}
+
+.temperature { 
+    flex-direction: column;
+}
+
+.degree-section { 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree-section span { 
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px;
+}
